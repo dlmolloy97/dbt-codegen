@@ -5,6 +5,6 @@ require-dbt-version: [">=1.1.0", "<2.0.0"]
 config-version: 2
 
 target-path: "target"
-clean-targets: ["target", "dbt_packages"]
+clean-targets: ["target"]
 macro-paths: ["macros"]
 log-path: "logs"
